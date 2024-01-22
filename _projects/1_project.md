@@ -54,4 +54,3 @@ Ready to boost your team's productivity and collaboration? Sign up now and start
 
 ---
 
-Feel free to customize this introduction based on your project's specific features and details.
