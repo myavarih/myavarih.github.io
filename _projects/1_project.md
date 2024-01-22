@@ -1,81 +1,57 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Task Manager
+description: a sampple project (By AI)
 img: assets/img/12.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+# Welcome to our Task Management System!
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Overview
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+Our Task Management System is a powerful tool designed to streamline and enhance project collaboration within your team. Whether you're a project manager, developer, or tester, our system provides a centralized platform for organizing tasks, tracking progress, and ensuring efficient project management.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Key Features
 
-{% raw %}
+- **User Roles:** Assign specific roles to team members, including Project Managers, Developers, and Testers, ensuring clear responsibilities.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+- **Task Tracking:** Easily create, assign, and track tasks. Monitor task status, due dates, and progress in real-time.
 
-{% endraw %}
+- **User-friendly Interface:** Our intuitive interface makes it easy for team members to collaborate and stay on top of their tasks.
+
+- **Efficient Communication:** Foster collaboration through built-in communication features, ensuring everyone is on the same page.
+
+## Meet the Team
+
+- **John Doe (Project Manager):** Leading the project and ensuring smooth coordination among team members.
+
+- **Jane Smith (Developer):** Responsible for implementing features and ensuring code quality.
+
+- **Alice Johnson (Tester):** Ensuring the reliability and quality of the developed features through comprehensive testing.
+
+## Current Tasks
+
+1. **Design Landing Page (Jane Smith):** Currently in progress, due by 2024-02-15.
+
+2. **Implement User Authentication (Alice Johnson):** Yet to start, due by 2024-02-20.
+
+3. **Optimize Database Queries (John Doe):** Completed on schedule.
+
+4. **Write Unit Tests (Jane Smith):** Currently in progress, due by 2024-02-25.
+
+5. **Bug Fixing (Alice Johnson):** To be addressed, due by 2024-02-18.
+
+## Get Started
+
+Ready to boost your team's productivity and collaboration? Sign up now and start managing your tasks efficiently with our Task Management System!
+
+---
+
+Feel free to customize this introduction based on your project's specific features and details.
