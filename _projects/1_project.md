@@ -2,7 +2,6 @@
 layout: page
 title: Task Manager
 description: a sampple project (By AI)
-img: assets/img/12.jpg
 importance: 1
 category: work
 related_publications: true

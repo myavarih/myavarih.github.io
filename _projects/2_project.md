@@ -4,7 +4,6 @@ title: EventHub
 description: a sample project (By AI)
 importance: 3
 category: work
-giscus_comments: true
 ---
 
 
